@@ -1,0 +1,15 @@
+/* body{
+  background-color: #1647BA;
+} */
+
+div{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #ffcc88; /* #fc8 */
+  background-color: chocolate;
+  transition: all 3s;
+}
+
+div:hover{
+  transform: scale(1.5) rotate(45deg);
+}
